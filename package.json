@@ -1,0 +1,17 @@
+{
+  "name": "foam-flow-server",
+  "version": "1.0.0",
+  "description": "Simulation backend (version 2)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "serve": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  }
+}
